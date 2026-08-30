@@ -15,7 +15,7 @@
 
 ## 대표 프로젝트
 
-### All My Trips
+### All My Trips · v0.0.8
 
 여행 일정부터 티켓 예약·결제·QR 검표까지 연결한 여행 플랫폼
 
@@ -24,7 +24,7 @@
 - Spring Security 세션 인증
 - AWS EC2·RDS 및 GitHub Actions 배포
 
-[바로 써보기](https://www.allmytrip.click) · [저장소](https://github.com/heopath/TravelGuide-Project-Team1) · [시연 영상](https://youtu.be/HHS_6rQ8duA)
+[저장소](https://github.com/heopath/TravelGuide-Project-Team1) · [시연 영상](https://youtu.be/HHS_6rQ8duA)
 
 ### K-Market
 
