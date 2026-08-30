@@ -24,7 +24,7 @@
 - Spring Security 세션 인증
 - AWS EC2·RDS 및 GitHub Actions 배포
 
-[저장소](https://github.com/heopath/TravelGuide-Project-Team1) · [시연 영상](https://youtu.be/HHS_6rQ8duA)
+[바로 써보기](https://www.allmytrip.click) · [저장소](https://github.com/heopath/TravelGuide-Project-Team1) · [시연 영상](https://youtu.be/HHS_6rQ8duA)
 
 ### K-Market
 
@@ -53,3 +53,4 @@ IT 인프라 운영부터 Java 백엔드 전환 과정을 게임처럼 구성한
 
 - [Portfolio](https://heopath.github.io/interactive-portfolio/)
 - [Blog](https://blog.naver.com/heo-world)
+- Email — heocoding@gmail.com
