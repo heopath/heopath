@@ -1,6 +1,6 @@
 # 허민재 | Java·Spring Backend Developer
 
-1년 10개월간 IT 인프라와 MES를 운영하고, Java·Spring 기반 서비스 구현과 AWS 배포를 경험했습니다.
+1년 10개월간 IT 인프라와 MES를 운영하고, Java·Spring 기반 서비스 구현, AWS 배포와 Oracle Cloud(OCI) 이관을 경험했습니다.
 
 기능 구현에서 끝나지 않고 배포 이후의 운영과 장애 대응까지 생각하는 백엔드 개발자를 목표로 하고 있습니다.
 
@@ -10,21 +10,23 @@
 - Java·Spring Boot 기반 웹 백엔드 개발
 - PostgreSQL·MySQL, JPA·MyBatis 데이터 처리
 - Redis 예약 대기열과 세션 적용
-- AWS EC2·RDS, Nginx, GitHub Actions 배포
+- AWS EC2·RDS 배포 후 OCI로 PostgreSQL 데이터 이관
+- OCI 앱·DB 서버 분리, Nginx·HTTPS 및 GitHub Actions 배포
 - 5인 팀 프로젝트 PM·팀장 경험
 
 ## 대표 프로젝트
 
-### All My Trips · v0.0.8
+### All My Trips
 
 여행 일정부터 티켓 예약·결제·QR 검표까지 연결한 여행 플랫폼
 
 - Redis Sorted Set·Lua 기반 예약 대기열
-- PostgreSQL 행 잠금·조건부 UPDATE 기반 재고 제어
+- MyBatis Mapper XML·PostgreSQL 행 잠금·조건부 UPDATE 기반 재고 제어
 - Spring Security 세션 인증
-- AWS EC2·RDS 및 GitHub Actions 배포
+- AWS 배포 후 OCI로 이관, GitHub Actions로 앱 서버 재배포
+- 로컬 k6 테스트: 동시 사용자 30명·재고 10개에서 예약 성공 10건, 품절 20건
 
-[저장소](https://github.com/heopath/TravelGuide-Project-Team1) · [시연 영상](https://youtu.be/HHS_6rQ8duA)
+[서비스](https://allmytrip.click) · [저장소](https://github.com/heopath/TravelGuide-Project-Team1) · [시연 영상](https://youtu.be/HHS_6rQ8duA)
 
 ### K-Market
 
@@ -45,6 +47,7 @@ IT 인프라 운영부터 Java 백엔드 전환 과정을 게임처럼 구성한
 ## 학습 중인 내용
 
 - Java·Spring 기본기
+- [Java 알고리즘 학습 계획과 풀이 기록](https://github.com/heopath/Algorithm-Practice)
 - 트랜잭션과 데이터베이스 동시성
 - Redis 자료구조와 장애 대응
 - 테스트 코드와 배포 자동화
